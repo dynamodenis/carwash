@@ -1,4 +1,4 @@
-package model;
+package com.carwash.carwash.model;
 
 public class Car {
     private int id;
@@ -54,4 +54,17 @@ public class Car {
     public void setYear(String year) {
         this.year = year;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id=" + id +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", driver=" + driver +
+                ", year='" + year + '\'' +
+                '}';
+    }
+
+
 }

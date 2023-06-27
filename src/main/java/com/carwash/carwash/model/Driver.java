@@ -1,4 +1,4 @@
-package model;
+package com.carwash.carwash.model;
 
 public class Driver {
     private int id;
